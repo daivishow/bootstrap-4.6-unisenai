@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reportar problema</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">Via Segura</a>
+
+            <div class="navbar-nav ml-auto">
+
+                <a class="nav-link text-white" href="index.html">Início</a>
+                <a class="nav-link text-white" href="dashboard.html">Ver denúncias</a>
+                <a class="nav-link text-white" href="login.html">Entrar</a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="container mt-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-8">
+
+                <div class="form-section">
+
+                    <h3 class="mb-4">Registrar denúncia</h3>
+
+                    <form action="dashboard.html">
+
+                        <div class="form-group">
+
+                            <label>Tipo de problema</label>
+
+                            <select class="form-control">
+
+                                <option>Buraco na via</option>
+                                <option>Placa quebrada</option>
+                                <option>Falta de sinalização</option>
+                                <option>Problema de iluminação</option>
+                                <option>Obra irregular</option>
+                                <option>Outro</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label>Descreva o problema</label>
+                            <textarea class="form-control" rows="4"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Endereço</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Bairro</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Cidade</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Data em que o problema foi observado</label>
+                            <input type="date" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Foto do problema</label>
+                            <input type="file" class="form-control-file">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Seu nome (opcional)</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <button class="btn btn-primary btn-block">
+                            Enviar denúncia
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="text-center">
+        <p>Via Segura © 2025 | Sistema de denúncia de problemas viários</p>
+    </footer>
+
+</body>
+
+</html>

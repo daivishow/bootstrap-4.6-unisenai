@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daivi Portfolio</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".nav-links" data-offset="50">
+
+    <header>
+
+        <nav>
+
+            <div class="logo">Daivi<span>Portfolio</span></div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#qualification">Qualificação</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+
+            </ul>
+
+            <div class="burger" onclick="toggleMenu()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>Olá, Eu sou o <span>Daivison de Oliveira</span></h1>
+
+            <h2>Junior Developer</h2>
+
+            <p>
+                Estudante de Análise e Desenvolvimento de Sistemas em transição de carreira, buscando descomplicar o
+                complexo.
+            </p>
+
+            <a href="#projects" class="btn-portfolio">Conheça o meu trabalho.</a>
+
+        </div>
+
+    </section>
+
+
+    <section id="about" class="about">
+
+        <h2 class="section-title">Sobre mim</h2>
+
+        <div class="about-container">
+
+            <div class="about-img">
+                <img src="assets/img/avatar.jpeg" alt="Developer Photo">
+            </div>
+
+            <div class="about-text">
+
+                <p>
+                    Sou um desenvolvedor júnior em transição de carreira.<br><br>
+                    Formado em Técnico de Segurança do Trabalho e com grande interesse em criar soluções que unam
+                    organização, clareza e acessibilidade.
+                </p>
+
+                <p>
+                    Trago para os meus códigos e projetos os mesmos princípios que guiavam minha rotina técnica:
+                    organização, clareza, praticidade e confiabilidade.
+                </p>
+
+                <div class="skills">
+                    <span>Java</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Git</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="qualification" class="qualification">
+
+        <h2 class="section-title">Qualificação</h2>
+
+        <div class="qualification-container">
+
+            <div class="education">
+
+                <h3><i class="fas fa-graduation-cap"></i> Formação</h3>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <h4>Técnico em Segurança do Trabalho</h4>
+                        <p>SENAI NORTE - Joinville SC (2022-2024)</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>Análise e Desenvolvimento de Sistemas (Cursando)</h4>
+                        <p>UniSenai (2025-2027)</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="experience">
+
+                <h3><i class="fas fa-briefcase"></i> Principais Experiências</h3>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <h4>Técnico em Segurança do Trabalho</h4>
+                        <p>SESI/SC (2024-Atualmente)</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>Assistente Financeiro</h4>
+                        <p>Clinimed SST (2022-2023)</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects">
+
+        <h2 class="section-title">Meus Projetos</h2>
+
+        <div class="projects-container">
+
+
+            <div class="project-card">
+
+                <img src="assets/img/projeto1.webp" alt="Project 1">
+
+                <h3>Fã Clube - Tai Lung</h3>
+
+                <p>Projeto de uma página de fã clube em .html e css.</p>
+
+                <button class="btn" data-toggle="modal" data-target="#projeto1">
+                    Ver Projeto
+                </button>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <img src="assets/img/projeto2.png" alt="Project 2">
+
+                <h3>Projeto Mochileros</h3>
+
+                <p>Em breve.</p>
+
+                <a href="#" class="btn">...</a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <img src="assets/img/Projeto 3.jpg" alt="Project 3">
+
+                <h3>Calculadora básica</h3>
+
+                <p>Projeto de calculadora básica utilizando JavaScript.</p>
+
+                <button class="btn" data-toggle="modal" data-target="#projeto3">
+                    Ver Projeto
+                </button>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+
+        <h2 class="section-title">Fale comigo!</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <p><i class="fas fa-envelope"></i> daivisonsenju@gmail.com</p>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/daivishow">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/daivison-de-oliveira-a33761312/">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+
+                    <a href="assets/img/Currículo.pdf">
+                        <i class="fas fa-file-pdf"></i> Currículo
+                    </a>
+
+                </div>
+            </div>
+
+
+            <form class="contact-form">
+
+                <input type="text" placeholder="Seu nome" required>
+
+                <input type="email" placeholder="Seu e-mail" required>
+
+                <textarea placeholder="Sua mensagem" required></textarea>
+
+                <button type="submit" class="btn">
+                    Enviar mensagem
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>&copy; 2026 Daivison de Oliveira. Todos os direitos reservados.</p>
+
+    </footer>
+
+
+    <!-- MODAL DO TAILUNG -->
+
+    <div class="modal fade" id="projeto1" tabindex="-1" role="dialog">
+
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">Fã Clube - Tai Lung</h5>
+
+                    <button type="button" class="close" data-dismiss="modal">
+
+                        <span>&times;</span>
+
+                    </button>
+
+                </div>
+
+
+                <div class="modal-body">
+
+                    <p>
+                        Projeto de página de fã clube desenvolvido em HTML e CSS.
+                    </p>
+
+                    <a href="https://daivishow.github.io/fa-club-site/" target="_blank">
+
+                        Abrir projeto online
+
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL DA CALCULADORA -->
+
+    <div class="modal fade" id="projeto3" tabindex="-1" role="dialog">
+
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">Calculadora JavaScript</h5>
+
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <p>
+                        Projeto de calculadora básica desenvolvido com HTML, CSS e JavaScript.
+                    </p>
+
+                    <a href="https://daivishow.github.io/atividade-calculadora/" target="_blank">
+                        Abrir projeto online
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SCRIPTS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+    <script>
+
+        const burger = document.querySelector(".burger");
+        const nav = document.querySelector(".nav-links");
+
+        burger.addEventListener("click", () => {
+            nav.classList.toggle("active");
+        });
+
+    </script>
+
+
+</body>
+
+</html>

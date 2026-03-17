@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Astralis Legacy - Fã Clube</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* identidade astralis */
+
+        .bg-astralis {
+            background-color: #0b0b0b;
+        }
+
+        .text-astralis {
+            color: #e10600;
+        }
+
+        /* seção jogadores */
+
+        .player-card {
+            border-top: 3px solid #e10600;
+            transition: all 0.3s ease;
+        }
+
+        .player-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .player-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* títulos */
+
+        .card-title {
+            font-weight: 600;
+        }
+
+        h2 {
+            font-weight: 700;
+        }
+
+        /* destaque cards */
+
+        .highlight-card:hover {
+            transform: translateY(-6px);
+            transition: 0.3s;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <a class="navbar-brand font-weight-bold" href="index.html">
+            <i class="fas fa-star text-danger mr-2"></i>Astralis Legacy
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="conquistas.html">Majors</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="inscricao.html">Inscreva-se</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="jumbotron jumbotron-fluid bg-dark text-white text-center shadow">
+
+            <div class="container">
+
+                <h1 class="display-3 font-weight-bold text-danger">Astralis Legacy</h1>
+
+                <p class="lead">
+                    Bem-vindo ao fã-clube dedicado ao time que redefiniu o Counter-Strike competitivo.
+                </p>
+
+                <hr class="my-4 bg-light">
+
+                <p>
+                    A Astralis revolucionou o cenário de CS:GO com disciplina tática, uso perfeito de utilitários
+                    e uma das eras mais dominantes da história dos esports.
+                </p>
+
+                <a class="btn btn-danger btn-lg font-weight-bold" href="conquistas.html">
+                    <i class="fas fa-trophy mr-2"></i>Ver Conquistas
+                </a>
+
+            </div>
+        </div>
+
+        <div class="container my-5">
+
+            <h2 class="text-center mb-4 border-bottom pb-2">
+                <i class="fas fa-users text-danger mr-2"></i>
+                Lendas da Astralis
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-4 col-lg-2 mb-4">
+
+                    <div class="card player-card text-center shadow-sm border-0 h-100">
+
+                        <img src="https://img-cdn.hltv.org/playerbodyshot/2yjZS2yI86a6JOSZBqTU1N.png?ixlib=java-2.1.0&w=400&s=1012517778101ce925ad9d7515252f95"
+                            class="card-img-top" alt="device">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">device</h5>
+
+                            <p class="card-text small">
+                                Um dos AWPers mais consistentes da história do CS:GO,
+                                conhecido pela precisão absurda e controle emocional.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-2 mb-4">
+
+                    <div class="card player-card text-center shadow-sm border-0 h-100">
+
+                        <img src="https://img-cdn.hltv.org/playerbodyshot/GxhHp2VnqUAUyuUPxqdhx7.png?ixlib=java-2.1.0&w=400&s=517a23702ac8f73bda744cceabb4f521"
+                            class="card-img-top" alt="gla1ve">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">gla1ve</h5>
+
+                            <p class="card-text small">
+                                Capitão e mente estratégica da Astralis,
+                                responsável por revolucionar o estilo tático do time.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-2 mb-4">
+
+                    <div class="card player-card text-center shadow-sm border-0 h-100">
+
+                        <img src="https://img-cdn.hltv.org/playerbodyshot/bUB9D95e9-m1vmV1uOJkYL.png?ixlib=java-2.1.0&w=400&s=9782ca5ffc91e3142dd8ee5528c88eb6"
+                            class="card-img-top" alt="dupreeh">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">dupreeh</h5>
+
+                            <p class="card-text small">
+                                Entry fragger explosivo,
+                                conhecido por abrir rounds e criar espaço para o time.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-2 mb-4">
+
+                    <div class="card player-card text-center shadow-sm border-0 h-100">
+
+                        <img src="https://img-cdn.hltv.org/playerbodyshot/l-To9JEXCdj3OlCFhGRI7o.png?ixlib=java-2.1.0&w=400&s=04de52439e2c9b4dd4d785e49e2383d9"
+                            class="card-img-top" alt="Magisk">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Magisk</h5>
+
+                            <p class="card-text small">
+                                Rifler extremamente preciso,
+                                um dos pilares da era dominante da Astralis.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-2 mb-4">
+
+                    <div class="card player-card text-center shadow-sm border-0 h-100">
+
+                        <img src="https://img-cdn.hltv.org/playerbodyshot/U7MHcEpIuYvbCF7TSIxhiq.png?ixlib=java-2.1.0&w=400&s=2ce1568e833533ed0f2f18fb07656a02"
+                            class="card-img-top" alt="Xyp9x">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Xyp9x</h5>
+
+                            <p class="card-text small">
+                                Conhecido como "Clutch Minister",
+                                especialista em situações 1vX decisivas.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container my-5">
+
+            <h2 class="text-center mb-4 border-bottom pb-2">
+                Destaques da Astralis
+            </h2>
+
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+
+                    <div class="card highlight-card h-100 shadow-sm border-0">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Domínio Tático</h5>
+
+                            <p class="card-text">
+                                A Astralis ficou famosa pelo jogo estratégico impecável,
+                                com execuções coordenadas e controle absoluto de utilitários nos mapas.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-white border-top-0">
+
+                            <a href="#" class="btn btn-outline-dark btn-block">Ver Estratégias</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+
+                    <div class="card highlight-card h-100 shadow-sm border-0">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Era de Ouro</h5>
+
+                            <p class="card-text">
+                                Entre 2018 e 2019, a Astralis estabeleceu uma das maiores dinastias
+                                da história do CS:GO, conquistando múltiplos campeonatos internacionais.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-white border-top-0">
+
+                            <a href="#" class="btn btn-outline-danger btn-block">Ver História</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+
+                    <div class="card highlight-card h-100 shadow-sm border-0 text-white bg-dark">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title text-danger">Comunidade Astralis</h5>
+
+                            <p class="card-text">
+                                Faça parte da comunidade global de fãs da Astralis
+                                e acompanhe notícias, análises e conteúdo competitivo.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-dark border-top-0">
+
+                            <a href="inscricao.html" class="btn btn-danger btn-block font-weight-bold">
+                                Participar
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-light text-center py-4 mt-5">
+
+        <p class="mb-0">
+            © 2026 Astralis Legacy - Fã Clube <br>
+            <small class="text-muted">Fã Clube não oficial | Trilha Bootstrap 4.6</small>
+        </p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
